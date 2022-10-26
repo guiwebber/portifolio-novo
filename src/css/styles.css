@@ -1,0 +1,166 @@
+body {  
+    background-image: url("../imagens/aaa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    min-height: 100vh;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style: none;
+}
+a {
+    
+    text-decoration: none;
+}
+.cartao .abas .aba.selecionado{
+  background-color: #262626;
+}
+
+.cartao {
+    background-color: #070d12;
+    max-width: 370px;
+    border-radius: 10px;
+    border: 2px solid #9b0aa0;
+    overflow: hidden;
+}
+.texto{
+    height: 400px;
+}
+
+.abas img {
+    width: 35px;
+}
+
+.minhas-info {
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.minhas-info img{
+    border-radius: 50%;
+    border: 4px solid #9b0aa0;
+}
+
+.cartao .minhas-info .nome {
+    font-size: 26px;
+}
+.cartao .minhas-info .cargo {
+  margin-bottom: 10px;
+    font-size: 18px;
+    color: #b8bbc5;
+}
+
+.cartao .abas {
+    display: flex;
+}
+.info-abas .informacao{
+  min-height: 260px;
+  min-width: 370px;
+  display: none;
+}
+
+.informacao.selecionado{
+  display: block;
+}
+
+.cartao .abas .aba {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+}
+.cartao .abas img{
+    width: 30px;
+}
+.cartao .abas .aba.selecionado {
+    background-color: #262626;
+}
+
+.cartao .info-abas {
+    background-color: #262626;
+}
+.aba:hover {
+    background-color: #414141;
+}
+
+.info-abas .sub-titulo {
+    font-size: 22px;
+     margin-bottom: 25px;
+     text-align: center;
+}
+
+span{
+    color: #02d08f;
+}   
+.informacao li a{
+    width: 250px;
+    font-size: 20px;
+  }
+  
+  .informacao li {
+    margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+
+}
+.informacao {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.informacao .curriculo {
+    background-color: #02d08f;
+}
+
+.informacao .linkedin{
+    background-color: cornflowerblue;
+}
+
+.informacao .github {
+background-color: #414141;
+}
+
+.informacao .curriculo:hover {
+    background-color: #048b61;
+}
+
+.informacao .linkedin:hover{
+    background-color: rgb(55, 98, 179);
+}
+
+.informacao .github:hover {
+background-color: #312e2e;
+}
+.info-abas .informacao {
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+.info-abas .informacao {
+  min-height: 260px;
+  padding: 15px;
+  padding-bottom: 54px;
+}
+
+.informacao h3 {
+  text-align: center;
+  padding-bottom: 6px;
+}
