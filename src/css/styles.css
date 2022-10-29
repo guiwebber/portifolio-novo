@@ -26,7 +26,7 @@ a {
     background-color: #070d12;
     max-width: 370px;
     border-radius: 10px;
-    border: 2px solid #9b0aa0;
+    border: 5px solid #c933ce;
     overflow: hidden;
 }
 .texto{
@@ -163,4 +163,9 @@ background-color: #312e2e;
 .informacao h3 {
   text-align: center;
   padding-bottom: 6px;
+}
+
+P {
+  color: greenyellow;
+  font-size: 32px;
 }
